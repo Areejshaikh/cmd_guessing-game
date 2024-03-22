@@ -5,6 +5,7 @@
 // 3) Compare user input with conputer generated number and show result : done
 
 import inquirer from "inquirer";
+console.log("Here is a Number gussing  game");
 
 const randomNumber = Math.floor(Math.random() * 6 + 1);
 const answer = await inquirer.prompt([
